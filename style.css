@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-.box{
+#board{
     background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
     width: 90vmin;
     height: 92vmin;
@@ -25,3 +25,10 @@
     grid-template-rows: repeat(18, 1fr);
 }
 
+.snake{
+    background-color: brown;
+}
+
+.food{
+    background-color: yellow;
+}

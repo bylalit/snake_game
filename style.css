@@ -26,9 +26,18 @@
 }
 
 .snake{
-    background-color: brown;
+    background-color: purple;
+    border: .25vmin solid white;
+}
+.head{
+    background: linear-gradient(red, yellow);
+    border: 2px solid purple;
+    transform: scale(1.02);
+    border-radius: 50%;
 }
 
 .food{
-    background-color: yellow;
+    background: linear-gradient(red, purple);
+    border: .25vmin solid black;
+    border: 8px;
 }

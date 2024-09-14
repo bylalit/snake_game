@@ -99,11 +99,11 @@ function gameEngine() {
     board.appendChild(snakeElement);
   });
 
-  // foodElement = document.createElement("div");
-  // foodElement.style.gridRowStart = food.y;
-  // foodElement.style.gridColumnStart = food.x;
-  // foodElement.classList.add("food");
-  // board.appendChild(foodElement);
+  foodElement = document.createElement("div");
+  foodElement.style.gridRowStart = food.y;
+  foodElement.style.gridColumnStart = food.x;
+  foodElement.classList.add("food");
+  board.appendChild(foodElement);
 }
 
 // Main Game Logic Start Here

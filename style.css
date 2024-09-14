@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 #board {
@@ -40,4 +40,4 @@
   background: linear-gradient(red, purple);
   border: 0.25vmin solid black;
   border: 8px;
-}
+} */

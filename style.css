@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
 }
-
+/* 
 #board {
   background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
   width: 90vmin;
@@ -23,13 +23,13 @@
   display: grid;
   grid-template-columns: repeat(18, 1fr);
   grid-template-rows: repeat(18, 1fr);
-}
+} */
 
 .snake {
   background-color: purple;
   border: 0.25vmin solid white;
 }
-/* .head {
+.head {
   background: linear-gradient(red, yellow);
   border: 2px solid purple;
   transform: scale(1.02);
@@ -40,4 +40,4 @@
   background: linear-gradient(red, purple);
   border: 0.25vmin solid black;
   border: 8px;
-} */
+}

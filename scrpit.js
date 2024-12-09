@@ -34,14 +34,14 @@ function isCollide(sanke) {
       return true;
     }
   }
-  if (
-    sanke[0].x >= 18 ||
-    sanke[0].x <= 0 ||
-    sanke[0].y >= 18 ||
-    sanke[0].y <= 0
-  ) {
-    return true;
-  }
+  // if (
+  //   sanke[0].x >= 18 ||
+  //   sanke[0].x <= 0 ||
+  //   sanke[0].y >= 18 ||
+  //   sanke[0].y <= 0
+  // ) {
+  //   return true;
+  // }
 }
 
 // 2 step

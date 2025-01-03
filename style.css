@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.body {
+/* .body {
   background: url(img/bg.jpg);
   min-width: 100vw;
   min-height: 100vh;
@@ -23,7 +23,7 @@
   display: grid;
   grid-template-columns: repeat(18, 1fr);
   grid-template-rows: repeat(18, 1fr);
-}
+} */
 
 .snake {
   background-color: purple;

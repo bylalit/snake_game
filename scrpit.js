@@ -59,20 +59,20 @@ function gameEngine() {
 
   // If you have the food , increment the score and regenerate the food
   // 7 step
-
-  // if (snakeArr[0].y === food.y && snakeArr[0].x === food.x) {
-  //   foodSound.play();
-  //   snakeArr.unshift({
-  //     x: snakeArr[0].x + inputDir.x,
-  //     y: snakeArr[0].y + inputDir.y,
-  //   });
-  //   let a = 2;
-  //   let b = 16;
-  //   food = {
-  //     x: Math.round(a + (b - a) * Math.random()),
-  //     y: Math.round(a + (b - a) * Math.random()),
-  //   };
-  // }
+  
+  if (snakeArr[0].y === food.y && snakeArr[0].x === food.x) {
+    foodSound.play();
+    snakeArr.unshift({
+      x: snakeArr[0].x + inputDir.x,
+      y: snakeArr[0].y + inputDir.y,
+    });
+    let a = 2;
+    let b = 16;
+    food = {
+      x: Math.round(a + (b - a) * Math.random()),
+      y: Math.round(a + (b - a) * Math.random()),
+    };
+  }
 
   // 8step
   // MOving the snake

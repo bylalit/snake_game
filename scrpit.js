@@ -61,11 +61,11 @@ function gameEngine() {
   // 7 step
   
   if (snakeArr[0].y === food.y && snakeArr[0].x === food.x) {
-    foodSound.play();
-    snakeArr.unshift({
-      x: snakeArr[0].x + inputDir.x,
-      y: snakeArr[0].y + inputDir.y,
-    });
+    // foodSound.play();
+    // snakeArr.unshift({
+    //   x: snakeArr[0].x + inputDir.x,
+    //   y: snakeArr[0].y + inputDir.y,
+    // });
     let a = 2;
     let b = 16;
     food = {
